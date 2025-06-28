@@ -1,0 +1,3 @@
+name = "YAP!"
+grammar = "yap"
+path_suffixes = ["yap"]
