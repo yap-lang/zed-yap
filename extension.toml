@@ -1,11 +1,10 @@
 id = "yap"
-name = "YAP!"
+name = "YAP! Programming Language"
 version = "0.1.0"
 schema_version = 1
 authors = ["Valaphee <valaphee@valaphee.com>"]
-description = "YAP! Programming Language"
 repository = "https://github.com/yap-lang/zed-yap"
 
 [grammars.yap]
 repository = "https://github.com/yap-lang/tree-sitter-yap"
-rev = "9139be7d4fde8a7fbec13a36ec59bc4508903bcf"
+rev = "3c593e7c512a4899e926e1a7e90b6834a1c08e40"
