@@ -1,8 +1,17 @@
 (identifier) @variable
+(number) @number
+(string) @string
+(call function: (_) @function)
 
 [
-  "="
-] @operator
+  ","
+  ":"
+] @punctuation.delimiter
+
+[
+  "("
+  ")"
+] @punctuation.bracket
 
 [
   "if"

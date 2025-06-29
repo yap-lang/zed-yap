@@ -1,3 +1,15 @@
 name = "YAP!"
 grammar = "yap"
 path_suffixes = ["yap"]
+
+brackets = [
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
+]
+
+auto_indent_using_last_non_empty_line = false
+increase_indent_pattern = "^[^#].*:\\s*$"
+decrease_indent_patterns = [
+  { pattern = "^\\s*elif\\b.*:", valid_after = ["if", "elif"] },
+  { pattern = "^\\s*else\\b.*:", valid_after = ["if", "elif"] },
+]
