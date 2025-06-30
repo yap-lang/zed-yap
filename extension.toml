@@ -8,4 +8,8 @@ repository = "https://github.com/yap-lang/zed-yap"
 
 [grammars.yap]
 repository = "https://github.com/yap-lang/tree-sitter-yap"
-rev = "f9d637cbc5aa5462886db2dcc127663812c2fa6f"
+rev = "214c7fb280bbc8ff9bcb994fdd34d1c6b72dc651"
+
+[language_servers.yap]
+name = "yap"
+languages = ["YAP!"]
