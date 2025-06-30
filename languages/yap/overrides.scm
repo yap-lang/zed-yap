@@ -1,1 +1,1 @@
-(string) @string
+(literal_string) @string

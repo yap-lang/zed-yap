@@ -1,2 +1,2 @@
 (comment)+ @comment.around
-(assignment body: (body) @function.inside) @function.around
+(assignment body: (statements) @function.inside) @function.around
