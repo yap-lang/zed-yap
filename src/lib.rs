@@ -1,11 +1,11 @@
 use zed_extension_api as zed;
 
-struct Yap;
+struct YapExtension;
 
-impl zed::Extension for Yap {
+impl zed::Extension for YapExtension {
     fn new() -> Self {
        Self
     }
 }
 
-zed::register_extension!(Yap);
+zed::register_extension!(YapExtension);

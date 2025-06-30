@@ -7,4 +7,4 @@ repository = "https://github.com/yap-lang/zed-yap"
 
 [grammars.yap]
 repository = "https://github.com/yap-lang/tree-sitter-yap"
-rev = "3c593e7c512a4899e926e1a7e90b6834a1c08e40"
+rev = "4d196d2becfed52e39d492ba4856d93bc2c22789"

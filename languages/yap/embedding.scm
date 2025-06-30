@@ -1,1 +1,1 @@
-(assign name: (_) @name) @item
+(assignment name: (_) @name) @item

@@ -1,1 +1,1 @@
-(assign body: (_) @function.inside) @function.around
+(assignment body: (body) @function.inside) @function.around
