@@ -3,12 +3,12 @@ name = "YAP! Programming Language"
 version = "0.1.0"
 schema_version = 1
 authors = ["Valaphee <valaphee@valaphee.com>"]
-description = ""
+description = "YAP! Support"
 repository = "https://github.com/yap-lang/zed-yap"
 
 [grammars.yap]
 repository = "https://github.com/yap-lang/tree-sitter-yap"
-rev = "229866f273cd2c90188245038e8d9d6e80a267f6"
+rev = "db9bde4050b2f89eda6541719fba29c70f57c0a2"
 
 [language_servers.yap]
 name = "yap"
